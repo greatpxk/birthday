@@ -82,7 +82,7 @@ $(document).ready(function() {
   }, 30000);
 
   setTimeout(function () {
-    $('#love').text("07-13 今天我们在一起300天");
+    $('#love').text("07-13 我们在一起300天");
     $('#love').animateCss('fadeIn');
     toTime(7, 13);
   }, 35000);
@@ -93,9 +93,9 @@ $(document).ready(function() {
   }, 40000);
 
   setTimeout(function () {
-    $('#love').text("08-18 你的生日也是我最重要的数字");
+    $('#love').text("10-21 我们在一起400天");
     $('#love').animateCss('fadeIn');
-    toTime(8, 18);
+    toTime(7, 13);
   }, 45000);
 
   setTimeout(function () {
@@ -104,9 +104,9 @@ $(document).ready(function() {
   }, 50000);
 
   setTimeout(function () {
-    $('#love').text("13-14 我都想和你一起度过");
+    $('#love').text("08-18 你的生日也是我最重要的数字");
     $('#love').animateCss('fadeIn');
-    toTime(1, 14);
+    toTime(8, 18);
   }, 55000);
 
   setTimeout(function () {
@@ -115,7 +115,18 @@ $(document).ready(function() {
   }, 60000);
 
   setTimeout(function () {
+    $('#love').text("13-14 我都想和你一起度过");
+    $('#love').animateCss('fadeIn');
+    toTime(1, 14);
+  }, 65000);
+
+  setTimeout(function () {
+    $('#love').animateCss('fadeOut');
+    $('#love').text("");
+  }, 70000);
+
+  setTimeout(function () {
     $('#love').text("我爱你 陈钰");
     $('#love').animateCss('fadeIn');
-  }, 65000);
+  }, 75000);
 });
